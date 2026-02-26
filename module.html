@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Module</title>
+<style>
+body{font-family:Arial,sans-serif;margin:20px;background:#f5f6fa;}
+h1{color:#333;}
+.pdf-container{margin-top:20px;}
+iframe{width:100%;height:600px;border:1px solid #ccc;}
+</style>
+</head>
+<body>
+
+<h1 id="module-title">Module</h1>
+
+<div class="pdf-container" id="pdf-container">
+  <p>الملفات ستظهر هنا لاحقًا</p>
+</div>
+
+<script>
+// قراءة Semester و Module من الرابط
+const urlParams = new URLSearchParams(window.location.search);
+const semester = urlParams.get('semester');
+const moduleNum = urlParams.get('module');
+
+document.getElementById("module-title").textContent = `S${semester} - Module ${moduleNum}`;
+
+// هنا يمكنك إضافة ملفات PDF خاصة بهذا Module لاحقًا
+const pdfContainer = document.getElementById("pdf-container");
+pdfContainer.innerHTML = `
+  <ul>
+    <li><a href="pdf/chapitre1.pdf" target="_blank">PDF 1</a></li>
+    <li><a href="pdf/chapitre2.pdf" target="_blank">PDF 2</a></li>
+  </ul>
+`;
+</script>
+
+</body>
+</html>
