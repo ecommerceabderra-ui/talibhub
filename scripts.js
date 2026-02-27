@@ -281,7 +281,7 @@ pdfs = ["Algèbre I-première séance 2026","Algebre01_Chapitre01_GESE_GMSI (1)"
      }else if(moduleName === "Algébre2") {
 pdfs = ["Algebre02_Chapitre01_GESE_GMSI_Seance1_2 2026","Algebre02_Chapitre02_GESE_GMSI_Seance3 2026","Algebre02_Chapitre03_GESE_GMSI_Seance6 2026","Algebre02_chapitre04__GESE_GMSI_Partie1et2 2026","Révision d'Algèbre II 2026","chapitre  1 alg2","chapitre  2_1  DETERMINANTS alg2","chapitre 3_1 alg2","chapitre 3_2 alg2","chapitre 3_3 alg2","chapitre 4 alg2","cont1_algebre_1_2020-2021e (1)",""];
      }else if(moduleName === "digital skills et intellegence artificielle") {
-pdfs = ["chapitre1&2_DS_IA digital","TD_DS_IA_1 di","DS_cour_PowerPoint dig","reseaux & internet 2026","DS_cour_word dig","reseaux & internet 2026","Excel_initial_avancé dig","Intégration DS_chap_IA dig","QCM_Réseaux&Internet dig","Teams_Présentation.pptx dig",""];
+pdfs = ["TD 1 digital","chapitre1&2_DS_IA digital","TD_DS_IA_1 di","DS_cour_PowerPoint dig","reseaux & internet 2026","DS_cour_word dig","reseaux & internet 2026","Excel_initial_avancé dig","Intégration DS_chap_IA dig","QCM_Réseaux&Internet dig","Teams_Présentation.pptx dig",""];
       }else if(moduleName === "anglais") {
 pdfs = ["ltc eng 2026"];
      }else if(moduleName === "") {
@@ -333,3 +333,4 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
