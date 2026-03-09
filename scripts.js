@@ -267,7 +267,7 @@ pdfs = ["chapitre1 ele GI_MSD 2026","polycope cours electricite 2025","polycope 
      }else if(moduleName === "Ltc fr") {
 pdfs = ["LTC cours et TD"];
      }else if(moduleName === "structure de matiére") {
-pdfs = ["structures géométriques","Tableau périodique des éléments_01","Tableau périodique des élèments_02","chapitre_ 01 structure","chapitre_ 02 structure","chapitre_ 03 structure","chapitre_ 03 structure atome","chapitre_ 04 structure","chapitre_ 05 structure","chapitre_ 06 structure","chapitre_ 07 structure","structure_atome0000000"
+pdfs = ["TD 1 structure GP-GC 2026","structures géométriques","Tableau périodique des éléments_01","Tableau périodique des élèments_02","chapitre_ 01 structure","chapitre_ 02 structure","chapitre_ 03 structure","chapitre_ 03 structure atome","chapitre_ 04 structure","chapitre_ 05 structure","chapitre_ 06 structure","chapitre_ 07 structure","structure_atome0000000"
     ,"Examen_SdM_ Rattrapage","Examen_SdM_MIPC-GE-GM_Section A_P1S1_2021","Examen_SdM_Section A_S1_2020_2021- Ordinaire","Examen_SdM_Section B_S2_2019_2020- Ordinaire","ATOMISTIQUE MIPC S1","TD MIPC_ 04_20_21","TD MIPC_ 03_20_21","TD MIPC_ 02_20_21","TD MIPC_ 01_20_21","TD_Structure de la Matière_MIPC 2","TD_Structure de la Matière_MIPC-1","TD_Structure de la Matière_MIPC-GE-GM_Série 03","TD_Structure de la Matière_MIPC-GE-GM_Série 04","TP structure de la matière","Manipulation-01_ Structure Matiére","Manipulation-02_ Structure Matiére"   
 ];
      }else if(moduleName === "thermodynamique") {
@@ -333,6 +333,7 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
 
 
 
