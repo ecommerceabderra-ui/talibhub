@@ -261,7 +261,7 @@ pdfs = ["cours prof maaden","cours prof maaden les integral + les équations dif
 ,"ts2.3 analyse 2","td4 . analyse 2","ratt analyse 2 prof maaden 2026"
 ];
     }else if(moduleName === "Méthodologie") {
-pdfs = ["polycope METU","TD methu","metu td."];
+pdfs = ["cours MTU (soft skills) (1) GI_MSD 2026","polycope METU","TD methu","metu td."];
     }else if(moduleName === "Électricité") {
 pdfs = ["polycope cours electricite 2025","polycope tp electriecite","TD electriecite 2024","Tds Électricité ","tout les Tds électricité 2025","correction les tds 2025 électricité","examens électricité","rattrapage élec 2025-2026"];
      }else if(moduleName === "Ltc fr") {
@@ -333,6 +333,7 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
 
 
 
