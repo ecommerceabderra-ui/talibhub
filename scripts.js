@@ -277,7 +277,7 @@ pdfs = ["Chapitre 1 - Thermodynamique MIPC (Section A)","Chapitre 2 - Thermodyna
      }else if(moduleName === "mécanique du point...") {
 pdfs = ["td1 mécanique GP_GC 2026","cours Mecanique Du Point MIPC GE GM","exams MEQANIQUE DES POINTS MIPC S1","exams MEQANIQUE DES POINTS MIPC S1","TD  1 méc","TD  2 méc","TD  3 méc","TD  4 méc","operateurs-differentiels 2021","OPTIQUE GEOMETRIQUE",];
      }else if(moduleName === "Algébre1") {
-pdfs = ["Algèbre I-première séance 2026","Algebre01_Chapitre01_GESE_GMSI (1)","Algebre01_Chapitre04_GESE_GMSI_Seance5_6 GI 2026","Algebre01_Chapitre05_GESE_GMSI_Seance7_8 GI 2026","Algebre01_Chapitre05_GESE_GMS_Seance9_10 GI 2026","Algebre01_Chapitre06_GESE_GMS_Seance11_12 GI 2026",,"Polynome_alg1_cour4_2020_2021","Cours  complet d_algèbre exo7","ALGEBRE 1 MIPC S2","Matrices_bis_alg1_cour7_2020_2021","TD1_algebre1_2020_2021_ccc","TD2_algebre_1_2020_21_cc","TD2_Nombres Complexes et polyn algebre_1_2020_21_ex","TD3_ Fraction algebre_1_2020_2021","TD3_algebre_1_2020_2021cc","TD4 Matrices et syst`emes _algebre_1_2020_21","TD4_algebre_1_2020_21c_","TD5_ Espace vectoriel et applic algebre_1_2020_2021c","TD5_algebre_1_2020_2021cc","Tout les TDs Analyse et Algèbre (1et2)","CamScanner 12-27-2022 14.31","CamScanner 12-27-2022 14.33","cont1_algebre_1_2020-2021e (1)",""];
+pdfs = ["Algèbre I-première séance 2026","Td2 algebre1 GP_GC 2026","Algebre01_Chapitre01_GESE_GMSI (1)","Algebre01_Chapitre04_GESE_GMSI_Seance5_6 GI 2026","Algebre01_Chapitre05_GESE_GMSI_Seance7_8 GI 2026","Algebre01_Chapitre05_GESE_GMS_Seance9_10 GI 2026","Algebre01_Chapitre06_GESE_GMS_Seance11_12 GI 2026",,"Polynome_alg1_cour4_2020_2021","Cours  complet d_algèbre exo7","ALGEBRE 1 MIPC S2","Matrices_bis_alg1_cour7_2020_2021","TD1_algebre1_2020_2021_ccc","TD2_algebre_1_2020_21_cc","TD2_Nombres Complexes et polyn algebre_1_2020_21_ex","TD3_ Fraction algebre_1_2020_2021","TD3_algebre_1_2020_2021cc","TD4 Matrices et syst`emes _algebre_1_2020_21","TD4_algebre_1_2020_21c_","TD5_ Espace vectoriel et applic algebre_1_2020_2021c","TD5_algebre_1_2020_2021cc","Tout les TDs Analyse et Algèbre (1et2)","CamScanner 12-27-2022 14.31","CamScanner 12-27-2022 14.33","cont1_algebre_1_2020-2021e (1)",""];
      }else if(moduleName === "Algébre2") {
 pdfs = ["Algebre02_Chapitre01_GESE_GMSI_Seance1_2 2026","Algebre02_Chapitre02_GESE_GMSI_Seance3 2026","Algebre02_Chapitre03_GESE_GMSI_Seance6 2026","Algebre02_chapitre04__GESE_GMSI_Partie1et2 2026","Révision d'Algèbre II 2026","chapitre  1 alg2","chapitre  2_1  DETERMINANTS alg2","chapitre 3_1 alg2","chapitre 3_2 alg2","chapitre 3_3 alg2","chapitre 4 alg2","cont1_algebre_1_2020-2021e (1)",""];
      }else if(moduleName === "digital skills et intellegence artificielle") {
@@ -333,6 +333,7 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
 
 
 
