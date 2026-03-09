@@ -249,7 +249,7 @@ function showPDFList(moduleName) {
     let pdfs = []; // مصفوفة PDFs لكل Module
 
     if(moduleName === "Analyse1") {
-        pdfs = ["cours les suites + les nombre réel prof ST","cours prof ST les suites et les fonctions","TD1 Prof ST","TD2 prof ST","correction TD1 PAR PROF ST","corrction TD1 prof ST","examens analyse1","examen 21_22 an1","Examen Analyse I ","Examen 2022 an1"
+        pdfs = ["Cours_Analyse1_Chapitre1_Nombre réel GI_msd 2026","cours les suites + les nombre réel prof ST","cours prof ST les suites et les fonctions","TD1 Prof ST","TD2 prof ST","correction TD1 PAR PROF ST","corrction TD1 prof ST","examens analyse1","examen 21_22 an1","Examen Analyse I ","Examen 2022 an1"
      ,"Cours 1.Mo3in" 
         ];
     } else if(moduleName === "Algo et programmation") {
@@ -333,4 +333,5 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
 
