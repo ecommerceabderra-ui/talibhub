@@ -249,11 +249,11 @@ function showPDFList(moduleName) {
     let pdfs = []; // مصفوفة PDFs لكل Module
 
     if(moduleName === "Analyse1") {
-        pdfs = ["Cours_Analyse1_Chapitre1_Nombre réel GI_msd 2026","cours les suites + les nombre réel prof ST","cours prof ST les suites et les fonctions","TD1 Prof ST","TD2 prof ST","correction TD1 PAR PROF ST","corrction TD1 prof ST","examens analyse1","examen 21_22 an1","Examen Analyse I ","Examen 2022 an1"
+        pdfs = ["Cours_Analyse1_Chap2 Suite numérique_by Wise GI_MSD","Cours_Analyse1_Chapitre1_Nombre réel GI_msd 2026","cours les suites + les nombre réel prof ST","cours prof ST les suites et les fonctions","TD1 Prof ST","TD2 prof ST","correction TD1 PAR PROF ST","corrction TD1 prof ST","examens analyse1","examen 21_22 an1","Examen Analyse I ","Examen 2022 an1"
      ,"Cours 1.Mo3in" 
         ];
     } else if(moduleName === "Algo et programmation") {
-        pdfs = ["Chapitre1","chapitre2","Chapitre3,4,5 prof youssef","TP1  correction prof youssef","TP2 correction prof youssef","TP3 correction prof youssef","TP4 correction prof youssef","TP5 correction prof youssef","TDs Algo prof Youssef","correction des  partie des TDs","Correction des TDs algo","exam algo 2024","exam algo normale 2025-2026"];
+        pdfs = ["TD N°1 algo GI_MSD 2026","TD N°2 GI_MSD","Chapitre1","chapitre2","Chapitre3,4,5 prof youssef","TP1  correction prof youssef","TP2 correction prof youssef","TP3 correction prof youssef","TP4 correction prof youssef","TP5 correction prof youssef","TDs Algo prof Youssef","correction des  partie des TDs","Correction des TDs algo","exam algo 2024","exam algo normale 2025-2026"];
     }else if(moduleName === "Circuit électrique") {
 pdfs = ["cours complet circuit électrique et électronique.prof elhajjamy","tout les serie avec correction","Examen_2024_2025_CEE_normal","Correction_Examen_2024_2025_CEE_normal (1)","examen circuit normal 2025-2026","exam tp circuit 2025-2026"];
     }else if(moduleName === "Analyse2") {
@@ -333,5 +333,6 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
 
 
