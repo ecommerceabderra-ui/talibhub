@@ -271,7 +271,7 @@ pdfs = ["structures géométriques","Tableau périodique des éléments_01","Tab
     ,"Examen_SdM_ Rattrapage","Examen_SdM_MIPC-GE-GM_Section A_P1S1_2021","Examen_SdM_Section A_S1_2020_2021- Ordinaire","Examen_SdM_Section B_S2_2019_2020- Ordinaire","ATOMISTIQUE MIPC S1","TD MIPC_ 04_20_21","TD MIPC_ 03_20_21","TD MIPC_ 02_20_21","TD MIPC_ 01_20_21","TD_Structure de la Matière_MIPC 2","TD_Structure de la Matière_MIPC-1","TD_Structure de la Matière_MIPC-GE-GM_Série 03","TD_Structure de la Matière_MIPC-GE-GM_Série 04","TP structure de la matière","Manipulation-01_ Structure Matiére","Manipulation-02_ Structure Matiére"   
 ];
      }else if(moduleName === "thermodynamique") {
-pdfs = ["Chapitre 1 - Thermodynamique MIPC (Section A)","Chapitre 2 - Thermodynamique MIPC (Section A)","Chapitre 3 - Thermodynamique MIPC (Section A)","Chapitre 4 - Thermodynamique MIPC (Section A)","Chapitre 5 - Thermodynamique MIPC (Section A)","polycopie-cours-thermodynamique-2021","Cours thermodynamique_chap 3 2023","Cours thermodynamique_chap 2 2023","Cours thermodynamique_chap 1 2023","chap 4 THERMO","TD thermodynamique 20 24_rajii","TDs thermodynamique","resumé thermo+exercices","examen thermodynamique 2023","examen thermodynamique 20233","Polycopié-Examens-Thermodynamique-Raji","exams thermo ...","TD1-Thermo_2020-2021-SECTION-A-FST","TD1-Thermo_2020-2021-SECTION-A-FST-Solution","TD2-Thermo_2020-2021-SECTION-A-FST","TD2-Thermo_2020-2021-SECTION-A-FST-Solution","TP 1 de thermodynamique 2023","TP 2 de thermodynamique 2023","TP 2 de thermodynamique G1_2","TP 3 de thermodynamique 2023","polycopie-cours-thermodynamique-2021"
+pdfs = ["td1 thermodynamique GP-GC 2026","Chapitre 1 - Thermodynamique MIPC (Section A)","Chapitre 2 - Thermodynamique MIPC (Section A)","Chapitre 3 - Thermodynamique MIPC (Section A)","Chapitre 4 - Thermodynamique MIPC (Section A)","Chapitre 5 - Thermodynamique MIPC (Section A)","polycopie-cours-thermodynamique-2021","Cours thermodynamique_chap 3 2023","Cours thermodynamique_chap 2 2023","Cours thermodynamique_chap 1 2023","chap 4 THERMO","TD thermodynamique 20 24_rajii","TDs thermodynamique","resumé thermo+exercices","examen thermodynamique 2023","examen thermodynamique 20233","Polycopié-Examens-Thermodynamique-Raji","exams thermo ...","TD1-Thermo_2020-2021-SECTION-A-FST","TD1-Thermo_2020-2021-SECTION-A-FST-Solution","TD2-Thermo_2020-2021-SECTION-A-FST","TD2-Thermo_2020-2021-SECTION-A-FST-Solution","TP 1 de thermodynamique 2023","TP 2 de thermodynamique 2023","TP 2 de thermodynamique G1_2","TP 3 de thermodynamique 2023","polycopie-cours-thermodynamique-2021"
     ,"relations"
 ];
      }else if(moduleName === "mécanique du point...") {
@@ -333,6 +333,7 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
 
 
 
