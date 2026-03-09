@@ -253,7 +253,7 @@ function showPDFList(moduleName) {
      ,"Cours 1.Mo3in" 
         ];
     } else if(moduleName === "Algo et programmation") {
-        pdfs = ["TD N°1 algo GI_MSD 2026","TD N°2 GI_MSD","Chapitre1","chapitre2","Chapitre3,4,5 prof youssef","TP1  correction prof youssef","TP2 correction prof youssef","TP3 correction prof youssef","TP4 correction prof youssef","TP5 correction prof youssef","TDs Algo prof Youssef","correction des  partie des TDs","Correction des TDs algo","exam algo 2024","exam algo normale 2025-2026"];
+        pdfs = ["TD N°1 algo GI_MSD 2026","TD N°2 GI_MSD","TP1 algo GI_MSD 2026","TP2 algo GI_MSD 2026","Chapitre1","chapitre2","Chapitre3,4,5 prof youssef","TP1  correction prof youssef","TP2 correction prof youssef","TP3 correction prof youssef","TP4 correction prof youssef","TP5 correction prof youssef","TDs Algo prof Youssef","correction des  partie des TDs","Correction des TDs algo","exam algo 2024","exam algo normale 2025-2026"];
     }else if(moduleName === "Circuit électrique") {
 pdfs = ["cours complet circuit électrique et électronique.prof elhajjamy","tout les serie avec correction","Examen_2024_2025_CEE_normal","Correction_Examen_2024_2025_CEE_normal (1)","examen circuit normal 2025-2026","exam tp circuit 2025-2026"];
     }else if(moduleName === "Analyse2") {
@@ -263,7 +263,7 @@ pdfs = ["cours prof maaden","cours prof maaden les integral + les équations dif
     }else if(moduleName === "Méthodologie") {
 pdfs = ["cours MTU (soft skills) (1) GI_MSD 2026","polycope METU","TD methu","metu td."];
     }else if(moduleName === "Électricité") {
-pdfs = ["polycope cours electricite 2025","polycope tp electriecite","TD electriecite 2024","Tds Électricité ","tout les Tds électricité 2025","correction les tds 2025 électricité","examens électricité","rattrapage élec 2025-2026"];
+pdfs = ["chapitre1 ele GI_MSD 2026","polycope cours electricite 2025","polycope tp electriecite","TD electriecite 2024","Tds Électricité ","tout les Tds électricité 2025","correction les tds 2025 électricité","examens électricité","rattrapage élec 2025-2026"];
      }else if(moduleName === "Ltc fr") {
 pdfs = ["LTC cours et TD"];
      }else if(moduleName === "structure de matiére") {
@@ -333,6 +333,7 @@ function openPDFPage(pdfName) {
 
 // عرض المنتجات عند تحميل الصفحة
 displayProducts();
+
 
 
 
